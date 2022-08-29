@@ -29,7 +29,6 @@ namespace WhoLivesHere
         static void Main(string[] args)
         {
             WhoLivesHere andy = new WhoLivesHere("Andy", "Brisbane");
-
             WhoLivesHere kevin = new WhoLivesHere("Kevin", "Melbourne");
 
             Console.WriteLine($"{andy.name} lives in {andy.city}");
