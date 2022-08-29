@@ -17,18 +17,20 @@ namespace WhoLivesHere
         /// </summary>
         string city;
 
+        WhoLivesHere(string newName, string newCity)
+        {
+            name = newName;
+            city = newCity;
+        }
+
         /// <summary>
         /// The main program.
         /// </summary>
         static void Main(string[] args)
         {
-            WhoLivesHere andy = new WhoLivesHere();
-            andy.name = "Andy";
-            andy.city = "Brisbane";
+            WhoLivesHere andy = new WhoLivesHere("Andy", "Brisbane");
 
-            WhoLivesHere kevin = new WhoLivesHere();
-            kevin.name = "Kevin";
-            kevin.city = "Melbourne";
+            WhoLivesHere kevin = new WhoLivesHere("Kevin", "Melbourne");
 
             Console.WriteLine($"{andy.name} lives in {andy.city}");
             Console.WriteLine($"{kevin.name} lives in {kevin.city}");
