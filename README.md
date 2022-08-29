@@ -26,9 +26,10 @@ overloading your methods, visibility and a has-a relationship.
 ## Overloading
 
 4. Create a class named **Car**. The Car should contain two fields, a model and a litre per
-    kilometres. It should contain two constructors. One requires both fields to be filled
-    and the second accepts the model and sets the litre to kilometre to be 50. Test that
-    Car is working by writing a method that displays each of the fields.
+    kilometres. It should contain three constructors. One requires both fields to be filled
+    and the second accepts the model and sets the litre to kilometre to be 50. A third constructor
+    accepts nothing and ask the user for the model's name, then set the litre per kilometer
+    to 50. Test that Car is working by writing a method that displays each of the fields.
 5. Create a class named **SalesTransaction**. The SalesTransaction contains fields for a
     salesperson name, sales amount and commission and a field that stores the
     commission rate. It contains two constructors. One constructor accepts values for
