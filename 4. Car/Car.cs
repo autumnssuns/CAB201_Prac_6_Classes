@@ -16,12 +16,9 @@ namespace Car
             this.model = model;
             this.litresPerKm = litresPerKm;
         }
-
-        Car(string model)
-        {
-            this.model = model;
-            litresPerKm = 50;
-        }
+        // A different way to write the second (1-parameter) constructor
+        // by using the old (2-parameter) constructor
+        Car(string model) : this(model, 50) { }
 
         /// <summary>
         /// The main program.
